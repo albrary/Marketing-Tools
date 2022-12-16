@@ -1,4 +1,4 @@
-# Rename file from .txt to .vtt.
+# Rename downloaded Microsoft file from .vtt to .txt.
 # Before running, retype file name on line 7.
 # Note that any double digit numbers in the transcript will be removed (line 25).
 
