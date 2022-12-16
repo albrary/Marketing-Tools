@@ -4,7 +4,7 @@
 
 #Importing file
 import re
-file = open("Wade.txt", "r")
+file = open("filename.txt", "r")
 actual = []
 test = []
 
