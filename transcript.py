@@ -1,5 +1,5 @@
 # Rename downloaded Microsoft file from .vtt to .txt.
-# Before running, retype file name on line 7.
+# Before running, retype file name on line 7 and 43.
 # Note that any double digit numbers in the transcript will be removed (line 25).
 
 #Importing file
@@ -40,7 +40,7 @@ for item in actual:
 
 #Testing Accuracy
 #Accuracy depends on how many lines mentioned two digit numbers.
-file = open("Wade.txt", "r")
+file = open("filename.txt", "r")
 original = []
 originalcount = 0
 finalcount = 0
@@ -64,6 +64,6 @@ print("----------------------------------------------")
 
 more = float(input("Combine lines? Press 2 \n"))
 if more == 2:
-    print("".join(actual))
+    print(" ".join(actual))
 else:
     quit
