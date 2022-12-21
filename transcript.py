@@ -61,3 +61,9 @@ accuracy3 = round(((finalcount-accuracy2)/finalcount)*100, 2)
 accuracy = 100-accuracy3
 print("Accuracy:", accuracy,"%")
 print("----------------------------------------------")
+
+more = float(input("Combine lines? Press 2 \n"))
+if more == 2:
+    print("".join(actual))
+else:
+    quit
